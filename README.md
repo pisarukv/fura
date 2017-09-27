@@ -24,3 +24,4 @@ After finishing running data will be saved to json with the name of repository.
 ![alt text](https://github.com/cali4888/fura/blob/master/json_saved.jpg)
 
 You can pass `-output` param to change the output file name. 
+For more info about params look [wiki page]https://github.com/cali4888/fura/wiki/Params-list
