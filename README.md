@@ -18,7 +18,7 @@ To launch the binary all you need to do is write `./fura` (for macos or linux) o
 ![alt text](https://github.com/cali4888/fura/blob/master/start_repo_remote.jpg)
 
 After finishing running data will be saved to json with the name of repository. 
-![alt text](https://github.com/cali4888/fura/blob/master/process_finished.jpg)
+![alt text](https://github.com/cali4888/fura/blob/master/scan_finished.jpg)
 
 ![alt text](https://github.com/cali4888/fura/blob/master/json_saved.jpg)
 
