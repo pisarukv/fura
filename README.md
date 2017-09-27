@@ -4,12 +4,11 @@ Fura is CLI tool for analysing git repositories.
  - **Portable** : Fura is a perfect cross-platform tool. Single binary, no dependencies.  Just run and it works
  - **Perfect for experiments** 🔬: Perfect match with other languages. Integrate Fura to your script or notebook. Use it to create something great.
 
-
 # Installation
 Just download binary for your OS and its ready to work. 
 
-# Known issues 
-On Windows progress bar is displayed incorect. Use `-noprogress` to disable it. 
+# Motivation of creating 
+You can read why we created fura [here](https://github.com/cali4888/fura/blob/master/Motivation.md)
 
 # Examples
 To launch the binary all you need to do is write `./fura` (for macos or linux) or `fura` (for Windows).
@@ -25,3 +24,6 @@ After finishing running data will be saved to json with the name of repository.
 
 You can pass `-output` param to change the output file name. 
 For more info about params look [wiki page](https://github.com/cali4888/fura/wiki/Params-list)
+
+# Known issues 
+On Windows progress bar is displayed incorect. Use `-noprogress` to disable it. 
