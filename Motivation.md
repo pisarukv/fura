@@ -5,6 +5,7 @@ In one point appeared an idea to try analyse working repositories to get data on
 But most of this tools were applications with fixed reports. Using this data for building other metrircs wasn't possible.
 
 GitStats and GitInspector was the main apps that were fund. Although they worked relatively quickly, they had very large disadvantages and were not suitable for our purposes.
+
 https://github.com/ejwa/gitinspector
 
 http://gitstats.sourceforge.net/
@@ -67,7 +68,7 @@ Also want to give some tables to compare our tool to previosly metioned tools.
 Posgtress repo table 
 https://github.com/postgres/postgres
 
-| Name | Commits number| Time | Added Lines | Removed Lines |
+| *Name* | *Commits number*| *Time* | *Added Lines* | *Removed Lines* |
 |------|---------|------|-----|------|
 | Github | 43462  | |||
 | Git cmd | 59947  ||||
@@ -79,7 +80,7 @@ https://github.com/postgres/postgres
 React repo table 
 https://github.com/facebook/react
 
-| Name | Commits number| Time | Added Lines | Removed Lines |
+| *Name* | *Commits number*| *Time* | *Added Lines* | *Removed Lines* |
 |------|---------|------|-----|------|
 | Github | 9020  | |||
 | Git cmd | 12769  ||||
