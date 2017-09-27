@@ -11,4 +11,4 @@ Just download binary for your OS and its ready to work.
 # Running
 To run the binary just put it into folder with git repository that you want to scan or pass path to repo through `-repo` param
 
-https://github.com/cali4888/fura/blob/master/process_view.jpg
+![alt text](https://github.com/cali4888/fura/blob/master/process_view.jpg)
