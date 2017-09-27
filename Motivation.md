@@ -68,7 +68,7 @@ Also want to give some tables to compare our tool to previosly metioned tools.
 Posgtress repo table 
 https://github.com/postgres/postgres
 
-| *Name* | *Commits number*| *Time* | *Added Lines* | *Removed Lines* |
+| **Name** | **Commits number**| **Time** | **Added Lines** | **Removed Lines** |
 |------|---------|------|-----|------|
 | Github | 43462  | |||
 | Git cmd | 59947  ||||
@@ -80,7 +80,7 @@ https://github.com/postgres/postgres
 React repo table 
 https://github.com/facebook/react
 
-| *Name* | *Commits number*| *Time* | *Added Lines* | *Removed Lines* |
+| **Name** | **Commits number**| **Time** | **Added Lines** | **Removed Lines** |
 |------|---------|------|-----|------|
 | Github | 9020  | |||
 | Git cmd | 12769  ||||
