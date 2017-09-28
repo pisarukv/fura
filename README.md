@@ -7,9 +7,6 @@ Fura is CLI tool for analysing git repositories.
 # Installation
 Just download binary for your OS and its ready to work. 
 
-# Motivation of creating 
-You can read why we created fura [here](https://github.com/cali4888/fura/blob/master/Motivation.md)
-
 # Examples
 To launch the binary all you need to do is write `./fura` (for macos or linux) or `fura` (for Windows).
 ![alt text](https://github.com/cali4888/fura/blob/master/process_view.jpg)
