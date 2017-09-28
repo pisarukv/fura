@@ -20,7 +20,7 @@ To launch the binary all you need to do is write `./fura` (for macos or linux) o
 After finishing running data will be saved to json with the name of repository. 
 ![alt text](https://github.com/cali4888/fura/blob/master/scan_finished.jpg)
 
-![alt text](https://github.com/cali4888/fura/blob/master/json_saved.jpg)
+![alt text](https://github.com/cali4888/fura/blob/master/file_list.jpg)
 
 You can pass `-output` param to change the output file name. 
 For more info about params look [wiki page](https://github.com/cali4888/fura/wiki/Params-list)
