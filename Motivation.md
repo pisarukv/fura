@@ -25,47 +25,12 @@ We called it fura
 
 App returns data as a json of writed the to mongoDB. It allows to use it both as a microservice as well as ussual app. 
 
-Data it returns is in `json` format:
+# Data format
+
+Data fura returns is in `json` format. To read about visit [wiki page](https://github.com/cali4888/fura/wiki/Data-format)
 
 
-## root:
-`"days": [day]`  - Array of **days**.
 
-> All data that we provide is separated into chunks with size of a day. Days are sorted in ascending order 
-
-## day:
-`"date": "1458567567"` - Date of the day in **unix time**.  
-`"commiters": [commiter]` - Array of **commiters**.  
-
-
-## commiter: 
-`"email": "example@gmail.com"` - Authors email **(string)**.  
-`"name": "Example Name "`  -  Authors name **(string)**.  
-`"added_lines": 232` - Total number of added lines in this day **(int)**.  
-`"removed_lines": 20` - Total number of removed lines in this day **(int)**.  
-`"commits_num": 8` - Total number of commits in this day**(int)**.  
-`"commits": [commit]`  - Array of **commits**.  
-   
-
-## commit:
-`"hash": "1a6a29a4a1a402d4b2c5a24d25d7b6d03b8br40e"` - Commit hash**(string)**.  
-`"message": "project creation`  - Commit message **(string)**.  
-`"date": 1458567567` - Commit time in **unix time**.  
-`"added_lines": 217` - Total number of lines added in this commit **(int)**.  
-`"removed_lines": 0` - Total number of lines removed in this commit **(int)**.  
-`"branches": ["master"]` - Array of branches to which this commit is related **(array[string])**.  
-`"files": [file]`  - Array of **files** changed in commit.  
-
-## file:
- `"path": "core/route.go"` - Path to file **(string)**.  
-`"name": "route.go"` - Name of the file **(string)**.  
-`"action": 1` - Type of action over file **(int)** : 1 - **creation**, 2 - **changing**, 3 - **deleting**, 4 - **renaming** .  
- `"isbinary": true` - Is file binary **(bool)**.  
- `"size": 392` - Size of file in bytes **(int)**.  
- `"oldpath": ""` - Old file path if it was changed **(string)**.  
- `"oldname": ""` - Old file name if it was changed **(string)**.  
- `"added_lines": 5` - Number of added lines **(int)**.  
- `"removed_lines": 0` - Number of removed lines **(int)**.  
 
 Becose of this inforamtion that is given by our app suited our need to makes different statistics on repos.  
 
