@@ -10,11 +10,11 @@ https://github.com/ejwa/gitinspector
 
 http://gitstats.sourceforge.net/
 
-## GitInspector
+# GitInspector
 
 First we tried to use GitInspector. He worked fast but had a lot of downsides. When we tried to analyse go repo we found out that GitInspector works with not all programming languages . Also it skips a lot of commmits. It were losing from 30% to 60% commits. Also data generated but this tools was impossible to use for building other statistics. 
 
-## GitStats
+# GitStats
 
 After that we tried to use GitStats. It was slower than GitInpsectora but still fast enough. Also he didnt skip commits and could analyse all programming languages. Also statistics was more detailed but still it was accumulated and wasnt enougth to build different metrics.  Other problems was that it made analysis only of the current branch and it didnt distinguish programming languages text from other text. For example it would count automatically generated json as lines of code.
 
