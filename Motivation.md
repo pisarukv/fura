@@ -27,16 +27,13 @@ App returns data as a json of writed the to mongoDB. It allows to use it both as
 
 # Data format
 
-Data fura returns is in `json` format. To read about visit [wiki page](https://github.com/cali4888/fura/wiki/Data-format)
-
-
-
+Data fura returns is in `json` format. To see the structure you can visit [wiki page](https://github.com/cali4888/fura/wiki/Data-format)
 
 Becose of this inforamtion that is given by our app suited our need to makes different statistics on repos.  
 
-Also want to give some tables to compare our tool to previosly metioned tools.
-
 # Comparing
+
+We made some tables to compare our tool to previosly metioned tools.
 
 Posgtress repo table 
 https://github.com/postgres/postgres
