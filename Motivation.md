@@ -1,4 +1,4 @@
-Fura
+Problem
 ===================
 
 In one point appeared an idea to try analyse working repositories to get data on working efficienty and different metrics. Then we decided to find tools that could collect data on repo and give it to use.  
@@ -17,6 +17,8 @@ First we tried to use GitInspector. He worked fast but had a lot of downsides. W
 # GitStats
 
 After that we tried to use GitStats. It was slower than GitInpsectora but still fast enough. Also he didnt skip commits and could analyse all programming languages. Also statistics was more detailed but still it was accumulated and wasnt enougth to build different metrics.  Other problems was that it made analysis only of the current branch and it didnt distinguish programming languages text from other text. For example it would count automatically generated json as lines of code.
+
+# Fura
 
 Because of all of this we decided to create our own tool that we could use for collecting date for futher experements. As a programming language we decided to use go. It is easy to launch on any platrofm and binary file is lightweight. 
 We called it fura
