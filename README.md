@@ -22,3 +22,4 @@ For more info about params look [wiki page](https://github.com/cali4888/fura/wik
 
 # Known issues 
 On Windows progress bar is displayed incorect. Use `-noprogress` to disable it. 
+Do not hesitate to report any bugs that you could find. 
