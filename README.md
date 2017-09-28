@@ -1,4 +1,4 @@
-# Fura
+# Fura 🚛
 Fura is CLI tool for analysing git repositories.
 
  - **Portable** : Fura is a perfect cross-platform tool. Single binary, no dependencies.  Just run and it works
