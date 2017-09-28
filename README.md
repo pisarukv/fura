@@ -5,11 +5,10 @@ Fura is CLI tool for analysing git repositories.
  - **Perfect for experiments** 🔬: Perfect match with other languages. Integrate Fura to your script or notebook. Use it to create something great. Chek our [wiki](https://github.com/cali4888/fura/wiki/Data-format) for data format.
 
 # Installation
-Just download binary for your OS and its ready to work. 
+Just download binary for your OS and put it in folder with repo or other place from which you will start it.
 
 # Examples
-To launch the binary all you need to do is write `./fura` (for macos or linux) or `fura` (for Windows).
- You can either put binary file to the folder with repository either pass the `--repo` (`-r`) param with path of repo. 
+To use the binary file you must launch terminal and launch it by writing `./fura` (for macos or linux) or `fura` (for Windows). In Windows it can be launched without entering the terminal. You can either put binary file to the folder with repository either pass the `--repo` (`-r`) param with path of repo. 
 ![alt text](https://github.com/cali4888/fura/blob/master/images/scan_start.png)
 
 After finishing running data will be saved to json with the name of repository. 
