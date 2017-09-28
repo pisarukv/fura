@@ -2,7 +2,7 @@
 Fura is CLI tool for analysing git repositories.
 
  - **Portable** : Fura is a perfect cross-platform tool. Single binary, no dependencies.  Just run and it works
- - **Perfect for experiments** 🔬: Perfect match with other languages. Integrate Fura to your script or notebook. Use it to create something great. Chek out [wiki](https://github.com/cali4888/fura/wiki/Data-format) for data format.
+ - **Perfect for experiments** 🔬: Perfect match with other languages. Integrate Fura to your script or notebook. Use it to create something great. Chek our [wiki](https://github.com/cali4888/fura/wiki/Data-format) for data format.
 
 # Installation
 Just download binary for your OS and its ready to work. 
