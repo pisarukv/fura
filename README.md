@@ -24,7 +24,8 @@ The resulting data is in json format. Check our [wiki](https://github.com/cali48
 
 For example you can use this code from [examples page](https://github.com/cali4888/fura/blob/master/examples/basic.md) to calculate total number of commits,added and removed lines for repo. 
 For example using this basic script on react repo you will get result ![alt text](https://github.com/cali4888/fura/blob/master/images/basic_example.png)
+You can get this jupither notebook file [here](https://github.com/cali4888/fura/blob/master/examples/run_fura_and_summary.ipynb)
 
 # Known issues 
-On Windows progress bar is displayed incorect. Use `-noprogress` to disable it. 
+Progress window can lag if you change size of terminal after start of the scan. 
 Do not hesitate to report any bugs that you could find. 
