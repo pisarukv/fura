@@ -2,7 +2,7 @@
 Fura is CLI tool for analysing git repositories.
 
  - **Portable** 👣: Fura is a perfect cross-platform tool. Single binary, no dependencies.  Just run and it works
- - **Perfect for experiments** 🔬: Perfect match with other languages. Integrate Fura to your script or notebook. Use it to create something great. Chek our [wiki](https://github.com/cali4888/fura/wiki/Data-format) for data format.
+ - **Perfect for experiments** 🔬: Perfect match with other languages. Integrate Fura to your script or notebook. Use it to create something great. 
 
 # Installation
 Just download binary for your OS and put it in folder with repo or other place from which you will start it.
@@ -19,6 +19,11 @@ After finishing running data will be saved to json with the name of repository.
 
 You can pass `-output` param to change the output file name. 
 For more info about params look [wiki page](https://github.com/cali4888/fura/wiki/Params-list)
+
+The resulting data is in json format. Check our [wiki](https://github.com/cali4888/fura/wiki/Data-format) for more info about the data format. After this you can use jupyter notebook and write your code for writing different statistics. 
+
+For example you can use this code from [examples page](https://github.com/cali4888/fura/blob/master/examples/basic.md) to calculate total number of commits,added and removed lines for repo. 
+For example using this basic script on react repo you will get result ![alt text](https://github.com/cali4888/fura/blob/master/images/basic_example.png)
 
 # Known issues 
 On Windows progress bar is displayed incorect. Use `-noprogress` to disable it. 
