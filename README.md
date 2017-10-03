@@ -28,6 +28,11 @@ For example using this basic script on react repo you will get result ![alt text
 
 You can get this jupither notebook file [here](https://github.com/cali4888/fura/blob/master/examples/basic_example.ipynb)
 
+You can build dayes disctibution charts ![alt text](https://github.com/cali4888/fura/blob/master/images/days_disctribution.png)
+
+Example of this jupither notebook you can find [here](https://github.com/cali4888/fura/blob/master/examples/dead_code.ipynb)
+
+
 # Known issues 
 Progress window can lag if you change size of terminal after start of the scan. 
 Do not hesitate to report any bugs that you could find. 
