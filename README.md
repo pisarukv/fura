@@ -7,7 +7,7 @@ Fura is CLI tool for analysing git repositories.
 
 # Installation
 Just download binary for your OS and put it in folder with repo or other place from which you will start it.
-Binaries are available for [MacOC 64 bit](https://github.com/cali4888/fura/releases/download/v1.0/fura-darwin-amd64) , [Windows 64bit](https://github.com/cali4888/fura/releases/download/v1.0/fura-windows-amd64.exe) , [Linux 64bit](https://github.com/cali4888/fura/releases/download/v1.0/fura-linux-amd64)
+Binaries are available for [MacOC 64 bit](https://github.com/cali4888/fura/releases/download/v1.0/fura-darwin-amd64.zip) , [Windows 64bit](https://github.com/cali4888/fura/releases/download/v1.0/fura-windows-amd64.exe.zip) , [Linux 64bit](https://github.com/cali4888/fura/releases/download/v1.0/fura-linux-amd64.zip)
 
 
 # Examples
